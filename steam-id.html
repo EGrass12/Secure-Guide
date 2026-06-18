@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="egrass12.github.io/Secure-Guide">
+    <meta name="application-name" content="egrass12.github.io/Secure-Guide">
+
+    <title>Steam ID (SteamID64) | egrass12.github.io/Secure-Guide</title>
+    <meta name="title" content="Steam ID (SteamID64) | egrass12.github.io/Secure-Guide">
+    <meta name="description" content="Find your Steam ID (SteamID64) on egrass12.github.io/Secure-Guide. Get better account security to make sure your accounts don't get stolen!">
+    <meta name="theme-color" content="#000000">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://egrass12.github.io/Secure-Guide">
+    <meta property="og:image" content="./icons/steam.png">
+    <meta property="og:title" content="Steam ID (SteamID64) | egrass12.github.io/Secure-Guide">
+    <meta property="og:site_name" content="egrass12.github.io/Secure-Guide">
+    <meta property="og:description" content="Find your Steam ID (SteamID64) on egrass12.github.io/Secure-Guide. Get better account security to make sure your accounts don't get stolen!">
+
+    <meta property="twitter:url" content="https://egrass12.github.io/Secure-Guide">
+    <meta property="twitter:title" content="Steam ID (SteamID64) | egrass12.github.io/Secure-Guide">
+    <meta property="twitter:description" content="Find your Steam ID (SteamID64) on egrass12.github.io/Secure-Guide. Get better account security to make sure your accounts don't get stolen!">
+    <meta property="twitter:image" content="./icons/steam.png">
+
+    <link rel="preload" as="image" href="./icons/github.png">
+    <link rel="preload stylesheet" href="./css/style.css" as="style" crossorigin="anonymous">
+    <link rel="preconnect" href="https://totp.codes">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=block" rel="stylesheet">
+    <link rel="preload stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/animations/shift-away.css" as="style" crossorigin="anonymous">
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="icon" href="./favicon.ico">
+    <link rel="apple-touch-icon" href="./favicon.ico">
+    <link rel="prerender" href="./index.html">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js" crossorigin="anonymous" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy.umd.min.js" crossorigin="anonymous" type="module"></script>
+    <script src="https://totp.codes/js/rolling-number.js" crossorigin="anonymous" type="module"></script>
+    <script src="./js/steamid.js" crossorigin="anonymous" type="module"></script>
+    <script>window.addEventListener("load",()=>document.body.classList.remove("preload"))</script>
+</head>
+<body class="preload">
+    <a rel="nofollow" href="https://github.com/EGrass12/Secure-Guide" target="_blank" title="GitHub Repository"
+        class="github"><img src="./icons/github.png" alt="GitHub Icon" title="GitHub"></a>
+    <div class="container">
+        <h1><a href="./index.html">egrass12.github.io/Secure-Guide</a><i>/steam-id</i></h1>
+        <div class="steamOuter">
+            <input type="text" autofocus autocomplete="off" id="vanity" placeholder="paste your vanity id here">
+            <layflags-rolling-number data-minimum="17" id="steamid">00000000000000000</layflags-rolling-number>
+            <p>Steam ID / click to copy</b></p>
+        </div>
+    </div>
+    <script>if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js'));</script>
+</body>
+</html>

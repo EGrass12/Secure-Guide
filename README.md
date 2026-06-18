@@ -1,2 +1,5 @@
-# Secure-Guide
-A Guide to Secure your Social Media, Games, and other imp stuff
+# Securing Guide
+
+Guide to securing your accounts.
+
+https://egrass12.github.io/Secure-Guide

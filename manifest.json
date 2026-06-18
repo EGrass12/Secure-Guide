@@ -1,0 +1,13 @@
+{
+    "short_name": "egrass12.github.io/Secure-Guide",
+    "name": "Securing Guide, Account Security",
+    "icons": [
+        {
+            "src": "https://egrass12.github.io/Secure-Guide/favicon.ico",
+            "sizes": "27x32",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone"
+}

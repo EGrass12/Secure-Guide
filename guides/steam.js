@@ -1,0 +1,45 @@
+window.steps = [
+    {
+        "points": [
+            "Sign in to your account [here](https://steamcommunity.com/login/home)",
+            "Go to [Account](https://store.steampowered.com/account) > Contact info",
+            "Change email and remove phone number"
+        ]
+    },
+    {
+        "points": [
+            "Secure the OGE if provided",
+            "Find the account creation email",
+            "Ensure the creation dates match"
+        ]
+    },
+    {
+        "points": [
+            "Change the password [here](https://help.steampowered.com/en/wizard/HelpChangePassword)",
+            "Make sure your password is secure",
+            "Click [here](https://password.click) to generate a password"
+        ]
+    },
+    {
+        "points": [
+            "Go to the [Manage Steam Guard](https://store.steampowered.com/twofactor/manage) page",
+            "Set up Steam Guard in the [mobile app](https://store.steampowered.com/twofactor/add_authenticator?authenticatortype=steam)",
+            "Alternatively, set up SDA [here](https://github.com/Jessecar96/SteamDesktopAuthenticator/releases/tag/1.0.13)"
+        ]
+    },
+    {
+        "points": [
+            "Search for a \"Retail\" acquisition [here](https://store.steampowered.com/account/licenses)",
+            "If found, ask for the product key",
+            "Otherwise, redeem your own product key"
+        ]
+    },
+    {
+        "points": [
+            "Download/save license history [here](https://store.steampowered.com/account/licenses)",
+            "Download/save purchase history [here](https://store.steampowered.com/account/history)",
+            "Find/save your SteamID64 [here](./steam-id.html)"
+            
+        ]
+    }
+]

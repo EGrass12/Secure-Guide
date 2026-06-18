@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="egrass12.github.io/Secure-Guide">
+    <meta name="application-name" content="egrass12.github.io/Secure-Guide">
+
+    <title>Minecraft Securing Guide | egrass12.github.io/Secure-Guide</title>
+    <meta name="title" content="Minecraft Securing Guide | egrass12.github.io/Secure-Guide">
+    <meta name="description" content="A Minecraft account securing guide. Get better account security to make sure your accounts don't get stolen!">
+    <meta name="theme-color" content="#000000">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://egrass12.github.io/Secure-Guide">
+    <meta property="og:image" content="./icons/minecraft.png">
+    <meta property="og:title" content="Minecraft Securing Guide | egrass12.github.io/Secure-Guide">
+    <meta property="og:site_name" content="egrass12.github.io/Secure-Guide">
+    <meta property="og:description" content="A Minecraft account securing guide. Get better account security to make sure your accounts don't get stolen!">
+
+    <meta property="twitter:url" content="https://egrass12.github.io/Secure-Guide">
+    <meta property="twitter:title" content="Minecraft Securing Guide | egrass12.github.io/Secure-Guide">
+    <meta property="twitter:description" content="A Minecraft account securing guide. Get better account security to make sure your accounts don't get stolen!">
+    <meta property="twitter:image" content="./icons/minecraft.png">
+
+    <link rel="preload" as="image" href="./icons/github.png">
+    <link rel="preload" as="image" href="./icons/minecraft.png">
+    <link rel="preload stylesheet" href="./css/style.css" as="style" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=block" rel="stylesheet" crossorigin="anonymous">
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="icon" href="./favicon.ico">
+    <link rel="apple-touch-icon" href="./favicon.ico">
+    <link rel="prerender" href="./index.html">
+
+    <script src="./guides/minecraft.js" crossorigin="anonymous" type="module"></script>
+    <script src="./js/generate.js" crossorigin="anonymous" type="module"></script>
+    <script>window.addEventListener("load",()=>document.body.classList.remove("preload"))</script>
+</head>
+<body class="preload">
+    <a rel="nofollow" href="https://github.com/EGrass12/Secure-Guide" target="_blank" title="GitHub Repository"
+        class="github"><img src="./icons/github.png" alt="GitHub Icon" title="GitHub"></a>
+    <div class="container">
+        <h1><a href="./index.html">egrass12.github.io/Secure-Guide</a><i>/minecraft</i></h1>
+        <div class="info minecraft">
+            <img src="./icons/minecraft.png" width="48" alt="Minecraft Icon" title="Minecraft">
+            <ul id="list">
+            </ul>
+        </div>
+        <div class="paginate">
+            <a id="prevEl" href="javascript:prevPage()" disabled><</a>
+            <p id="stepDisplay">step 1 of 1</p>
+            <a id="nextEl" href="javascript:nextPage()">></a>
+        </div>
+    </div>
+    <script>if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js'));</script>
+</body>
+</html>

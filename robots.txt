@@ -1,0 +1,4 @@
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://egrass12.github.io/Secure-Guide/sitemap.xml
