@@ -1,4 +1,4 @@
-const CACHE_NAME = 'egrass12.github.io/Secure-Guide-v1.1';
+const CACHE_NAME = 'egrass12.github.io/Secure-Guide-v1.3';
 
 self.addEventListener('install', (event) => {
     self.skipWaiting(); // Make this SW activate immediately
